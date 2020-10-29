@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+button{
+    background-color: indigo;
+    color: white;
+    border: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 16px;
+
+}
+
+button.act{
+    transform: translateX(-80px);
+}
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: indigo;
+    height: 100vh;
+    padding: 1.5rem;
+    transform: translateX(100%);
+}
+nav.act{
+    transform: translateX(0);
+}
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    
+}
+nav ul li{
+
+    padding: 10px 0 ;
+ }
+
+nav a{
+    text-decoration: none;
+    color: white;
+} 
